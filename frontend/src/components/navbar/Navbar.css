@@ -1,0 +1,62 @@
+.navbar {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.left-navbar {
+    display: flex;
+    align-items: center;
+}
+
+.left-navbar p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #213555;
+}
+
+.mid-navbar {
+    display: flex;
+    justify-content: end;
+}
+
+.mid-navbar input {
+    width: 15w;
+    height: 2rem;
+    border: 1px solid #213555;
+    padding: 1rem;
+    border-radius: 0.5rem 0 0 0.5rem;
+    outline: none;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    background-color: #3E5879;
+    border: 1px solid #213555;
+    color: #D8C4B6;
+    font-weight: bold;
+    margin-right: 1rem;
+    border-radius: 0.5rem;
+}
+
+.mid-navbar button {
+    border-radius: 0 0.5rem 0.5rem 0;
+}
+
+.right-navbar {
+    display: flex;
+    justify-content: end;
+}
+
+.right-navbar button {
+    margin-left: 1rem;
+    margin-right: 0;
+}
+
+.hline {
+    height: 2px;
+    background-color: #213555;
+    margin-bottom: 1rem;
+}
